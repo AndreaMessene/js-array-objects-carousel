@@ -1,0 +1,38 @@
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 1000px;
+    height: 500px;
+}
+
+.box-img{
+    text-align: center;
+}
+
+.prev, .next{
+    display: flex;
+    align-items: center;
+    font-size: 38px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.item.active{
+    display: block;
+}
+
+.item{
+    display: none;
+}
